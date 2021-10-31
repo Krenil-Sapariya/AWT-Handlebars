@@ -13,10 +13,12 @@ app.set('view engine', 'hbs');
 
 app.get('/', function (req, res) {
     res.render('home', {
-        product: [
+        data: [
             {
-                name: 'tv'
-                
+                msg: "Welcome to sign in page"
+		name: "Krenil Sapariya"
+		id: "19CE125"
+                topic: "Handlebars"
             }
         ]
     });
